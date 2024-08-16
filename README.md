@@ -12,3 +12,4 @@ npx create-react-app client cd client Install Axios Dependices:
 "axios": "^1.7.3", "moment": "^2.30.1", 
 "react": "^18.3.1", "react-dom": "^18.3.1",
 "react-scripts": "5.0.1", "web-vitals": "^2.1.4"
+Backend:
