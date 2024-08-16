@@ -1,31 +1,28 @@
-Car Vault App
-Overview
+#Car Vault App
+**Overview**
 The Car Vault App is a full-stack web application designed to manage and track vehicles securely. This application consists of a React.js frontend and a Node.js/Express.js backend, with MongoDB as the database for data storage. The app allows users to authenticate, manage vehicle data, and track vehicles in real-time.
-
-Features
-Backend
+**Features**
+**Backend**
 User Authentication: JWT-based authentication system to secure API endpoints.
 Vehicle Management: CRUD operations for vehicle data.
 Real-time Tracking: API endpoints to track vehicles in real-time.
 Secure API: Implemented with security best practices to protect user data.
 Database Integration: MongoDB for storing vehicle and user data.
-Frontend
+**Frontend**
 User Interface: Built with React.js to provide a dynamic and responsive user experience.
 API Integration: Uses Axios to communicate with the backend API.
 Date Management: Moment.js for handling and displaying dates.
 State Management: Manages application state efficiently with React’s component-based architecture.
-Installation and Setup
-Prerequisites
+**Installation and Setup
+Prerequisites**
 Node.js
 MongoDB
-Backend Setup
-Clone the repository:
-git clone https://github.com/HARATHI2003/car-vault-app-using-mern-stack.git
+**Backend Setup**
 Navigate to the server directory:
 cd car-vault-app-using-mern-stack/server
 Install dependencies:
 npm install
-Set up environment variables:
+**Set up environment variables:**
 Create a .env file in the server directory with the following:
 plaintext
 Copy code
@@ -46,9 +43,6 @@ Start the frontend server:
 Copy code
 npm start
 The frontend will be available at http://localhost:3000.
-Project Structure
-bash
-Copy code
 car-vault-app-using-mern-stack/
 ├── client/                    # Frontend code (React)
 │   ├── node_modules/          # Frontend dependencies
