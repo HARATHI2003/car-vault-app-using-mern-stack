@@ -1,5 +1,5 @@
-#Car Vault App
-**Overview**
+****Car Vault App**
+****Overview**
 The Car Vault App is a full-stack web application designed to manage and track vehicles securely. This application consists of a React.js frontend and a Node.js/Express.js backend, with MongoDB as the database for data storage. The app allows users to authenticate, manage vehicle data, and track vehicles in real-time.
 **Features**
 **Backend**
@@ -43,37 +43,6 @@ Start the frontend server:
 Copy code
 npm start
 The frontend will be available at http://localhost:3000.
-car-vault-app-using-mern-stack/
-├── client/                    # Frontend code (React)
-│   ├── node_modules/          # Frontend dependencies
-│   ├── public/                # Public assets and index.html
-│   ├── src/                   # React components, styles, and assets
-│   │   ├── components/        # Reusable React components
-│   │   ├── App.js             # Main React component
-│   │   ├── App.css            # Global styles
-│   │   ├── index.js           # Entry point for React
-│   │   ├── index.css          # Base styles
-│   │   ├── logo.svg           # Logo image
-│   │   ├── reportWebVitals.js # Performance monitoring
-│   │   └── setupTests.js      # Testing setup
-│   ├── .gitignore             # Ignored files and directories for Git
-│   ├── package.json           # Frontend dependencies and scripts
-│   ├── package-lock.json      # Locked versions of dependencies
-│   └── README.md              # Frontend documentation
-├── server/                    # Backend code (Node.js, Express.js)
-│   ├── node_modules/          # Backend dependencies
-│   ├── config/                # Configuration files (e.g., database)
-│   ├── controllers/           # Request handlers for routes
-│   ├── models/                # Mongoose models for MongoDB
-│   ├── routes/                # API routes definitions
-│   ├── middleware/            # Custom middleware functions
-│   ├── .env                   # Environment variables
-│   ├── package.json           # Backend dependencies and scripts
-│   ├── package-lock.json      # Locked versions of dependencies
-│   ├── seedData.js            # Database seeding script
-│   └── server.js              # Entry point for the backend server
-└── README.md                  # Project documentation
-
 API Endpoints
 Authentication
 POST /api/auth/register: Register a new user.
